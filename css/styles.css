@@ -335,9 +335,9 @@ img {
 }
 
 .team-social-link-icon {
-    position: absolute;
+    /* position: absolute;
     top: 12px;
-    left: 12px;
+    left: 12px; */
     fill: #f4f4fd;
 }
 
@@ -536,6 +536,11 @@ img {
     border-color: #31d0aa;
 }
 
+.footer-subscribe-container-input::placeholder {
+    color: #fff;
+    opacity: 1;
+}
+
 .footer-button {
     display: flex;
     font-weight: 500;
@@ -591,9 +596,6 @@ img {
     left: 50%;
     width: 408px;
     min-height: 584px;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
-    background-color: #fcfcfc;
-    border-radius: 4px;
     transform: translate(-50%, -50%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
